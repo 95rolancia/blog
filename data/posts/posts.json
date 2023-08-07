@@ -1,0 +1,16 @@
+[
+  {
+    "title": "AOS, IOS input validation (a.k.a. vue js)",
+    "date": "2023-05-31",
+    "category": "javascript",
+    "path": "aos-ios-input-validation-vue-js",
+    "tags": ["cross browsing", "javascript"]
+  },
+  {
+    "title": "자바스크립트 기초 문법",
+    "date": "2022-05-08",
+    "category": "javascript",
+    "path": "javascript-basic",
+    "tags": ["javascript"]
+  }
+]
