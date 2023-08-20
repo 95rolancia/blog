@@ -1,5 +1,5 @@
-import PostList from '@/components/PostList'
 import { Metadata } from 'next'
+import PostList from '@/components/PostList'
 
 export const metadata: Metadata = {
   title: '게시글 목록',
