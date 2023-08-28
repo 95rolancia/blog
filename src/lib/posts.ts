@@ -19,3 +19,7 @@ export async function getAllPosts() {
 
   return posts.sort((a, b) => (a.date > b.date ? -1 : 1))
 }
+
+export async function getRecentPosts(postCount: number) {
+  return (await getAllPosts()).slice(0, postCount)
+}
