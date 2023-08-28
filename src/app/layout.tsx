@@ -1,6 +1,7 @@
 import { Noto_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata = {
   title: "jjangjun's blog",
@@ -15,10 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={notoSans.className}>
+    <html lang="en" className={notoSans.className}>
+      <body className={`flex flex-col h-full w-full mx-auto max-w-screen-2xl `}>
         <Header />
-        {children}
+        <main className="grow">{children}</main>
+        <Footer />
       </body>
     </html>
   )

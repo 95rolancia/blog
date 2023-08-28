@@ -1,3 +1,11 @@
+import Info from '@/components/Info'
+import RecentPosts from '@/components/RecentPosts'
+
 export default function Home() {
-  return <p>Hello world</p>
+  return (
+    <>
+      <Info />
+      <RecentPosts />
+    </>
+  )
 }
