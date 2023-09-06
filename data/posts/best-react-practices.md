@@ -26,7 +26,7 @@ A paragraph with _emphasis_ and **strong importance**.
 - [ ] todo
 - [x] done
 
-# Component-Based
+## Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
 
