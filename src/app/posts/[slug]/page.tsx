@@ -8,7 +8,9 @@ type Props = {
   }
 }
 
-export async function generateMetadata({ params: { slug } }: Props): Promise<Metadata> {
+export async function generateMetadata({
+  params: { slug },
+}: Props): Promise<Metadata> {
   const { title } = await getPostData(slug)
   return {
     title,
@@ -17,7 +19,6 @@ export async function generateMetadata({ params: { slug } }: Props): Promise<Met
 
 export default async function PostPage({ params: { slug } }: Props) {
   const post = await getPostData(slug)
-  const { title, path } = post
 
   return (
     <article className="rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4">
