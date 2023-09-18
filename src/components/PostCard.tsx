@@ -3,14 +3,19 @@ import Link from 'next/link'
 
 import { Post } from '@/lib/posts'
 
-type Props = { post: Post }
+type Props = { post: Post; width?: string }
 
 export default function PostCard({
   post: { title, date, category, path },
+  width,
 }: Props) {
   return (
     <Link href={`/posts/${path}`}>
-      <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl w-[300px] bg-white">
+      <article
+        className={`rounded-md overflow-hidden shadow-md hover:shadow-xl bg-white ${
+          width && `w-[${width}px]`
+        }`}
+      >
         <Image
           src={`/images/posts/${path}.jpeg`}
           className="w-full"
