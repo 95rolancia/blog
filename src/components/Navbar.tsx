@@ -9,10 +9,6 @@ const paths = [
     href: '/about',
   },
   {
-    label: 'Posts',
-    href: '/posts',
-  },
-  {
     label: 'Contact',
     href: '/contact',
   },
