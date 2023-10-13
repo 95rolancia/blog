@@ -11,7 +11,9 @@ export default async function RecentPosts() {
         {recentPosts.map((post) => (
           <li key={post.title} className="mb-12">
             <Link href={`/posts/${post.path}`} target="_blank">
-              <h2 className="font-bold text-3xl mb-2">{post.title}</h2>
+              <h2 className="font-bold text-3xl mb-2 hover:text-sky-400">
+                {post.title}
+              </h2>
             </Link>
             <div className="flex gap-2 mb-2">
               <h4 className="text-gray-400">{post.date.toString()}</h4>
