@@ -9,8 +9,8 @@ const paths = [
     href: '/about',
   },
   {
-    label: 'Contact',
-    href: '/contact',
+    label: 'Posts',
+    href: '/posts',
   },
 ]
 

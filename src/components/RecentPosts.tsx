@@ -1,6 +1,4 @@
 import { getRecentPosts } from '@/lib/posts'
-import CarouselPosts from './CarouselPosts'
-import PostCard from './PostCard'
 import Link from 'next/link'
 
 export default async function RecentPosts() {
@@ -23,8 +21,6 @@ export default async function RecentPosts() {
           </li>
         ))}
       </ul>
-
-      {/* <CarouselPosts posts={recentPosts} /> */}
     </section>
   )
 }
