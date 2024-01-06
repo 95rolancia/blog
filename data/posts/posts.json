@@ -1,83 +1,11 @@
 [
   {
-    "title": "AOS, IOS input validation (a.k.a. vue js)",
-    "date": "2023-05-31",
-    "category": "browser",
-    "path": "aos-ios-input-validation-vue-js",
-    "tags": ["crossbrowsing", "javascript"],
-    "readingTimeInMinutes": "4",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 1",
-    "date": "2022-05-08",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "3",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 2",
-    "date": "2022-05-10",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "3",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 3",
-    "date": "2022-06-06",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "4",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 4",
-    "date": "2022-06-07",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "5",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 5",
-    "date": "2022-06-12",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "5",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 6",
-    "date": "2022-06-15",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "5",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법- 7",
-    "date": "2022-06-20",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "5",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
-  },
-  {
-    "title": "자바스크립트 기초 문법 - 8",
-    "date": "2022-06-27",
-    "category": "javascript",
-    "path": "javascript-basic",
-    "tags": ["javascript"],
-    "readingTimeInMinutes": "5",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga alias voluptatum amet sunt saepe expedita voluptatibus quisquam modi enim? Ullam eveniet quasi qui voluptatem, doloremque nostrum unde aut similique!"
+    "title": "2023 회고",
+    "date": "2024-01-06",
+    "category": "회고",
+    "path": "2023-retrospection",
+    "tags": ["회고", "주니어"],
+    "readingTimeInMinutes": "6",
+    "desc": "금융권 주니어 개발자의 2023 회고"
   }
 ]
