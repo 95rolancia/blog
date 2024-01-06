@@ -13,7 +13,7 @@ export default function FilteredPosts({
       <ul>
         {posts.map((post) => (
           <li key={post.title} className="mb-12">
-            <Link href={`/posts/${post.path}`} target="_blank">
+            <Link href={`/posts/${post.path}`}>
               <h2 className="font-bold text-3xl mb-2 hover:text-sky-400">
                 {post.title}
               </h2>
@@ -35,7 +35,7 @@ export default function FilteredPosts({
         .filter((post) => post.category === category)
         .map((post) => (
           <li key={post.title} className="mb-12">
-            <Link href={`/posts/${post.path}`} target="_blank">
+            <Link href={`/posts/${post.path}`}>
               <h2 className="font-bold text-3xl mb-2 hover:text-sky-400">
                 {post.title}
               </h2>
