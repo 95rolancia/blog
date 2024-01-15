@@ -1,24 +1,15 @@
 import { getRecentPosts } from '@/lib/posts'
 import Link from 'next/link'
+import PostCard from './PostCard'
 
 export default async function RecentPosts() {
   const recentPosts = await getRecentPosts(10)
   return (
-    <section className="p-4">
+    <section className="px-8 md:p-4">
+      <h2 className="text-2xl font-bold mb-3">최근 게시글</h2>
       <ul>
         {recentPosts.map((post) => (
-          <li key={post.title} className="mb-12">
-            <Link href={`/posts/${post.path}`}>
-              <h2 className="font-bold text-3xl mb-2 hover:text-sky-400">
-                {post.title}
-              </h2>
-            </Link>
-            <div className="flex gap-2 mb-2">
-              <h4 className="text-gray-400">{post.date.toString()}</h4>
-              <h4>{post.readingTimeInMinutes} min read</h4>
-            </div>
-            <h3>{post.desc}</h3>
-          </li>
+          <PostCard key={post.title} post={post} />
         ))}
       </ul>
     </section>
