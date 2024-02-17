@@ -7,5 +7,14 @@
     "tags": ["회고", "주니어"],
     "readingTimeInMinutes": "6",
     "desc": "금융권 주니어 개발자의 2023 회고"
+  },
+  {
+    "title": "React key와 memo, re-render",
+    "date": "2024-02-17",
+    "category": "React",
+    "path": "react-key-memo-rerender",
+    "tags": ["React", "memo", "key", ""],
+    "readingTimeInMinutes": "8",
+    "desc": "React의 key와 memo, re-render"
   }
 ]
